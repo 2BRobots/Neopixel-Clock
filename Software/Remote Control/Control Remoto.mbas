@@ -1,0 +1,83 @@
+program Control_Remoto
+
+' Declarations section 
+
+
+sub procedure interrupt  
+
+if INTCON.0 = 1 then
+if PORTA.1 = 0 then
+PWM1_Init(38000)
+PWM1_Start()
+PWM1_Set_Duty(127)
+delay_ms(100)
+UART1_Init(1200)
+'BAUDCON.4 = 1
+delay_ms(250)
+UART1_Write_Text ("a")
+delay_ms(200)
+reset
+end if
+
+if PORTA.3 = 0 then
+PWM1_Init(38000)
+PWM1_Start()
+PWM1_Set_Duty(127)
+delay_ms(100)
+UART1_Init(1200)
+'BAUDCON.4 = 1
+delay_ms(250)
+UART1_Write_Text ("b")
+delay_ms(200)
+reset
+end if
+
+if PORTA.4 = 0 then
+PWM1_Init(38000)
+PWM1_Start()
+PWM1_Set_Duty(127)
+delay_ms(100)
+UART1_Init(1200)
+'BAUDCON.4 = 1
+delay_ms(250)
+UART1_Write_Text ("c")
+delay_ms(200)
+reset
+end if
+
+if PORTA.5 = 0 then
+PWM1_Init(38000)
+PWM1_Start()
+PWM1_Set_Duty(127)
+delay_ms(100)
+UART1_Init(1200)
+'BAUDCON.4 = 1
+delay_ms(250)
+UART1_Write_Text ("d")
+delay_ms(200)
+reset
+end if
+
+IOCAF = %00000000
+end if
+
+end sub
+
+main:'   Main program
+OSCCON = %11110000
+TRISA = %00111010
+ANSELA = %00000000
+PORTA = %00111010
+OPTION_REG.7 = 0
+WPUA = %00111010
+
+delay_ms(50)
+
+IOCAN = %00111010
+IOCAF = %00000000
+INTCON = %10001000
+
+inicio:
+sleep
+goto inicio
+end.

@@ -1,0 +1,9 @@
+main
+interrupt
+	PWM1_Init
+	PWM1_Start
+	PWM1_Set_Duty
+		Mul_16x16_U
+	UART1_Init
+	UART1_Write_Text
+		UART1_Write

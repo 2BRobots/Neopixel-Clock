@@ -1,0 +1,14 @@
+0	1	mBPic.exe -MSF -DBG -pP12F1822 -Y -DL -O11111114 -fo32 -N"C:\Users\David Fernandez\Documents\proyecto reloj\Control Remoto.mbppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroBasic PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroBasic PRO for PIC\Uses\P16_Enh\" -SP"C:\Users\David Fernandez\Documents\proyecto reloj\" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_String.mcl" "__Lib_CStdlib.mcl" "__Lib_MemManager.mcl" "__Lib_Conversions.mcl" "__Lib_Time.mcl" "__Lib_Trigon.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC.mcl" "__Lib_EEPROM.mcl" "__Lib_FLASH_rwe.mcl" "__Lib_I2C_a12.mcl" "__Lib_PWM_a2.mcl" "__Lib_SPI_a120.mcl" "__Lib_UART_a01.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_GlcdFonts.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_SPIT6963C_Const.mcl" "Control Remoto.mbas"	 
+diagnostics: 0	155	Available RAM: 112 [bytes], Available ROM: 2048 [bytes]	 
+diagnostics: 0	133	Compilation Started	C:\Users\David Fernandez\Documents\proyecto reloj\Control Remoto.mbas
+hint: 1	1015	Hint: Compiling unit "C:\Users\David Fernandez\Documents\proyecto reloj\Control Remoto.mbas"	Control Remoto.mbas
+hint: 6	1021	Hint: interrupt handler (interrupt at 0x0004)	Control Remoto.mbas
+hint: 83	1010	Hint: Unit "Control Remoto.mbas" has been recompiled	Control Remoto.mbas
+diagnostics: 0	134	Compiled Successfully	C:\Users\David Fernandez\Documents\proyecto reloj\Control Remoto.mbas
+diagnostics: 0	139	All files Compiled in 31 ms	 
+hint: 0	1144	Used RAM (bytes): 23 (21%)  Free RAM (bytes): 89 (79%)	Used RAM (bytes): 23 (21%)  Free RAM (bytes): 89 (79%)
+hint: 0	1144	Used ROM (program words): 534 (26%)  Free ROM (program words): 1514 (74%)	Used ROM (program words): 534 (26%)  Free ROM (program words): 1514 (74%)
+diagnostics: 0	145	Project Linked Successfully	Control Remoto.mbppi
+diagnostics: 0	140	Linked in 63 ms	 
+diagnostics: 0	141	Project 'Control Remoto.mbppi' completed: 141 ms	 
+diagnostics: 0	103	Finished successfully: 23 jul 2015, 23:26:58	Control Remoto.mbppi
