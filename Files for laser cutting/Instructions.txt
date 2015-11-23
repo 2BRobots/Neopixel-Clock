@@ -1,0 +1,5 @@
+The color code for laser cutting is as follows:
+* Black is for 3mm black acrylic cuts..
+* Blue is for 3mm white acrylic cuts.. It should be translucent.
+* Purple is for 3mm clear acrylic cuts.
+* Yellow is for raster engraving.   
